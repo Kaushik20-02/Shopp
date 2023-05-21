@@ -15,7 +15,7 @@ function HomeBanner() {
             infiniteLoop={true} 
             showStatus={false}>
         <div>
-            <img src={slide} className='rounded-[2rem]' alt='none'/>
+            <Image src={slide} className='rounded-[2rem]' alt='none'/>
             <div className=" px-[15px] md:px-[20px] lg:px-[40px]
              py-[10px] md:py-[18px] lg:py-[25px]
               bg-white absolute bottom-[125px] md:bottom-[50px] 
@@ -25,7 +25,7 @@ function HomeBanner() {
             ">Shop Now</div>
         </div>
         <div>
-            <img src={slide2} className='rounded-[2rem]' alt='none'/>
+            <Image src={slide2} className='rounded-[2rem]' alt='none'/>
             <div className=" px-[15px] md:px-[20px] lg:px-[40px]
              py-[10px] md:py-[18px] lg:py-[25px]
               bg-white absolute bottom-[125px] md:bottom-[50px] 
@@ -35,7 +35,7 @@ function HomeBanner() {
             ">Shop Now</div>
         </div>
         <div>
-            <img src={slide3} className='rounded-[2rem]' alt='none'/>
+            <Image src={slide3} className='rounded-[2rem]' alt='none'/>
             <div className=" px-[15px] md:px-[20px] lg:px-[40px]
              py-[10px] md:py-[18px] lg:py-[25px]
               bg-white absolute bottom-[125px] md:bottom-[50px] 

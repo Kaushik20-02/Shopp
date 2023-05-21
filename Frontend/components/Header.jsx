@@ -44,7 +44,7 @@ useEffect(() => {
     
     <Wrapper className="h-[60px] flex justify-between items-center">
       <Link href='/'>
-        <img className='w-[4rem] md:w-[2rem]' src={download} alt='none'/>
+        <Image className='w-[4rem] md:w-[2rem]' src={download} alt='none'/>
       </Link>
 
       <Menu showCatMenu={showCatMenu} setShowCatMenu={setShowCatMenu}/>
