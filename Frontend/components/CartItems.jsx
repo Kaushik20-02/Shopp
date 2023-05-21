@@ -6,7 +6,7 @@ function CartItems() {
   return (
     <div className="flex py-5 gap-3 mx-8 md:gap-5 border-b">
       <div className="shrink-0 aspect-square w-[50px] md:w-[80px]">
-        <img src="https://images.pexels.com/photos/6568942/pexels-photo-6568942.jpeg?auto=compress&cs=tinysrgb&w=600" />
+        <Image src="https://images.pexels.com/photos/6568942/pexels-photo-6568942.jpeg?auto=compress&cs=tinysrgb&w=600" alt='none'/>
       </div>
 
       <div className="w-full flex flex-col">

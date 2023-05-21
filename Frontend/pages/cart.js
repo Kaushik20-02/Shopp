@@ -47,7 +47,7 @@ function cart() {
                 {/* EmptyCART */}
             <div className="flex-[2] hidden flex flex-col items-center pb-[50px] md:-mt-14">
                 <Image src={Empty}
-                    className="w-[300px] md:w-[400px]" />
+                    className="w-[300px] md:w-[400px]" alt='none'/>
                 <span className="text-xl font-bold">
                     Your cart is empty
                 </span>

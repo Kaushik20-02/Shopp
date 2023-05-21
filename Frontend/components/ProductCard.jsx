@@ -7,7 +7,7 @@ function ProductCard() {
   return (
     <Link href={`/product/1`} className='transform overflow-hidden
     duration-200 hover:scale-110 cursor-pointer'>
-      <Image src={product} className='rounded-[2rem]'/>
+      <Image src={product} className='rounded-[2rem]' alt='none'/>
       <div className='p-4 text-purple-500 font-bold'>
         <h2 className=' text-[1.2rem]'>Product Name</h2>
         <div className='flex justify-between'>
